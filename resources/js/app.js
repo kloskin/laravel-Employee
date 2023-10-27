@@ -52,33 +52,6 @@ addButton.addEventListener('click', function() {
 });
 
 
-/*deleteButton.addEventListener('click', function() {
-    if (phoneFieldIndex > 0) {
-        const lastPhoneField = phoneFieldsContainer.lastChild;
-        phoneFieldsContainer.removeChild(lastPhoneField);
-        phoneFieldIndex--;
-        phoneFieldCountInput.value = phoneFieldIndex;
-    }
-});*/
-
-
-/*
-deleteButton.addEventListener('click', function() {
-    if (phoneFieldIndex > 0) { // Upewnij się, że istnieje co najmniej jedno pole
-        // Pobierz wszystkie pola numerów telefonów
-        const phoneFields = phoneFieldsContainer.querySelectorAll('input[type="text"]');
-
-        // Usuń ostatnie pole, niezależnie od jego zawartości
-        const lastPhoneField = phoneFields[phoneFields.length - 1];
-        phoneFieldsContainer.removeChild(lastPhoneField);
-
-        phoneFieldIndex--;
-        phoneFieldCountInput.value = phoneFieldIndex;
-    }
-});
-*/
-
-
 deleteButton.addEventListener('click', function() {
     if (phoneFieldIndex > 0) { // Upewnij się, że istnieje co najmniej jedno pole
         // Pobierz wszystkie pola numerów telefonów
