@@ -6,9 +6,6 @@ window.Alpine = Alpine;
 
 Alpine.start();
 
-// Nav hamburger
-const btn = document.getElementById("hamburger-icon");
-const nav = document.getElementById("mobile-menu");
 
 /*Dietary select*/
 const dietaryBtn = document.getElementById("dropdownSearchButton");
@@ -21,14 +18,6 @@ const phoneFieldsContainer = document.getElementById('additional-phone-fields');
 const phoneFieldCountInput = document.getElementById('phone-field-count');
 let phoneFieldIndex = parseInt(phoneFieldCountInput.value);
 
-
-
-
-// Nav hamburger
-btn.addEventListener("click", ()=>{
-   nav.classList.toggle("flex");
-   nav.classList.toggle("hidden");
-});
 
 /*Dietary select*/
 if (dietaryBtn) {
