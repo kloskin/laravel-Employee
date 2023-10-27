@@ -2,6 +2,7 @@
     <x-slot:title>
         Employee
     </x-slot:title>
+
     <div class="my-14 flex flex-col">
             <div class="text-center">
                 <p class="text-gray-500">{{$employee->created_at->format('j M Y')}}</p>
